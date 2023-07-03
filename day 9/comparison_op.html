@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript String Operators</h1>
+<p>Note that strings are compared alphabetically:</p>
+
+<p id="demo"></p>
+<p id="demo_1"></p>
+<p id="demo_2"></p>
+<p id="demo_3"></p>
+
+
+<script>
+let text1 = "23";
+let text2 = "14";
+let result1 = text1 < text2;
+let result2 = text1 > text2;
+let result3 = text1 <= text2;
+let result4 = text1 >= text2;
+
+document.getElementById("demo").innerHTML = "Is 23 less than 14? " + result1;
+document.getElementById("demo_1").innerHTML = "Is 14 less than 23? " + result2;
+document.getElementById("demo_2").innerHTML = "Is 23 less than or equal to 14? " + result3;
+document.getElementById("demo_3").innerHTML = "Is 14 less than or equal to 23? " + result4;
+
+</script>
+
+</body>
+</html>

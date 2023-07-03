@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript Functions</h1>
+
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+
+    <script>
+        function add(p1, p2) {
+            return p1 + p2;
+        }
+        function sub(p1, p2) {
+            return p1 - p2;
+        }
+        function mul(p1, p2) {
+            return p1 * p2;
+        }
+        function div(p1, p2) {
+            return p1 / p2;
+        }
+        function modulo(p1, p2) {
+            return p1 % p2;
+        }
+
+        let add1 = add(31, 10);
+        let sub1 = sub(32, 11);
+        let mul1 = mul(14, 22);
+        let div1 = div(45, 9);
+        let mod1 = modulo(24, 14);
+        document.getElementById("demo").innerHTML = add1;
+        document.getElementById("demo1").innerHTML = sub1;
+        document.getElementById("demo2").innerHTML = mul1;
+        document.getElementById("demo3").innerHTML = div1;
+        document.getElementById("demo4").innerHTML = mod1;
+    </script>
+
+</body>
+
+</html>
