@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide("slow", function(){
+      alert("The paragraph is now hidden");
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<button>Hide</button>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quos illo adipisci beatae fugiat earum alias distinctio modi soluta obcaecati, consequuntur a in eius impedit! Dolorum dolores nihil sapiente officia?</p>
+
+</body>
+</html>
